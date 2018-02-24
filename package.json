@@ -1,0 +1,25 @@
+{
+  "name": "ic-assetfinder-ro",
+  "version": "1.0.0",
+  "description": "For training purposes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Rafael Osorio",
+  "license": "ISC",
+  "dependencies": {
+    "basic-auth": "^1.1.0",
+    "body-parser": "^1.17.1",
+    "crypto": "0.0.3",
+    "express": "^4.15.2",
+    "express-formidable": "^0.1.2",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.13.0",
+    "box-node-sdk": "^1.0.0",
+    "request": "^2.81.0",
+    "request-json": "^0.6.1",
+    "xml2js": "^0.4.17"
+  }
+}
