@@ -173,7 +173,7 @@ function handleCalbackRequest(req, res){
 
                       console.log('ArrayLenght: '+arrayLength);
                       for (var j = 0; j < arrayLength; j++) {
-                          if (entities[j].type === "Product"){
+                          if (entities[j].type === "product"){
                             product = entities[j].text;
                           }
                       }
